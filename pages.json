@@ -1,0 +1,47 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "主页"
+			}
+		},
+		{
+			"path": "pages/personal/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "移动警务终端",
+		"navigationBarBackgroundColor": "#0080FF",
+		"pageOrientation": "portrait"
+	},
+	"tabBar": {
+		"color": "#000",
+		"selectedColor": "#0080ff",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"height": "80px",
+		"fontSize": "16px",
+		"iconWidth": "38px",
+		"spacing": "13px",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/images/tabs/index.png",
+				"selectedIconPath": "static/images/tabs/index_s.png",
+				"text": "主页"
+			},
+			{
+				"pagePath": "pages/personal/index",
+				"iconPath": "static/images/tabs/personal.png",
+				"selectedIconPath": "static/images/tabs/personal_s.png",
+				"text": "我的"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}
